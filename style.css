@@ -15,7 +15,6 @@ html {
     line-height: 1.5;
 }
 
-/* Utiliy classes */
 .white-text {
     color: hsl(0, 0%, 100%);
 }
@@ -76,7 +75,6 @@ h3 {
 }
 
 .overall-score {
-    background: black;
     width: 140px;
     height: 140px;
     display: flex;
@@ -85,9 +83,7 @@ h3 {
     border-radius: 50%;
     margin-bottom: 1rem;
     margin-inline: auto;
-    /* background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.1) 70%);
-    background-image: linear-gradient(hsla(256, 72%, 46%, 0.9), hsla(241, 72%, 46%, 0.7), hsla(256, 72%, 46%, 0.05)); */
-    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.3), hsla(241, 72%, 46%, 0.05));
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.1) 70%);
 }
 
 .overall-score span {
@@ -98,7 +94,6 @@ h3 {
 
 .large-text {
     font-size: 1.5rem;
-    /* line-height: 2.5rem; */
     line-height: 48px;
     font-weight: 700;
 }
@@ -116,7 +111,6 @@ h3 {
 .skill-result {
     margin-bottom: 1rem;
     border-radius: 16px;
-    /* line-height: 18px; */
     border: 1px solid hsla(var(--h), var(--s), var(--l), 0.2);
     position: relative;
     z-index: 1;
@@ -170,6 +164,7 @@ h3 {
     padding: 1rem;
     border-radius: 40px;
     font-size: 18px;
+    line-height: 1;
     font-family: inherit;
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
@@ -207,7 +202,6 @@ h3 {
         grid-template-columns: 1fr 1fr;
         max-width: 736px;
         border-radius: 32px;
-        /* border: 1px solid black; */
         -webkit-box-shadow: 15px 15px 75px -57px rgba(48,59,90,1);
         -moz-box-shadow: 15px 15px 75px -57px rgba(48,59,90,1);
         box-shadow: 15px 15px 75px -57px rgba(48,59,90,1);
@@ -265,5 +259,6 @@ h3 {
         position: absolute;
         bottom: 50px;
         left: 50%;
+        transform: translateX(-50%);
     }
 }
