@@ -12,7 +12,6 @@
 html {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
 }
 
 .white-text {
@@ -45,10 +44,6 @@ html {
     --h: 234;
     --s: 85%;
     --l: 45%;
-}
-
-.reduced-line-height {
-    line-height: 20px;
 }
 
 .pb-1 {
@@ -227,7 +222,6 @@ h3 {
     .overall-score {
         width: 200px;
         height: 200px;
-        /* margin-bottom: 40px; */
     }
 
     .overall-score span {
